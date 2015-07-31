@@ -36,8 +36,8 @@ if(isset($_POST["upload_btn"])) {
 set_time_limit(0);
 require_once("DropboxClient.php");
 $dropbox = new DropboxClient(array(
-	'app_key' => "h8esbarwgkujaz8",      // Put your Dropbox API key here
-	'app_secret' => "55rvyvxy7d6ss4k",   // Put your Dropbox API secret here
+	'app_key' => "app_key",      // Put your Dropbox API key here
+	'app_secret' => "app_secret",   // Put your Dropbox API secret here
 	'app_full_access' => false,
 	),'en');
 
